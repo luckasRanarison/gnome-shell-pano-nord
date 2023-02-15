@@ -6,7 +6,11 @@
 [![latest](https://img.shields.io/github/v/release/oae/gnome-shell-pano)](https://github.com/oae/gnome-shell-pano/releases/latest)
 [![compare](https://img.shields.io/github/commits-since/oae/gnome-shell-pano/latest/master)](https://github.com/oae/gnome-shell-pano/compare)
 
-![ss](https://i.imgur.com/lyKgmLk.png)
+This is a fork with some custom styling for my personal use.
+
+## Preview
+
+![preview](./preview.png)
 
 |           General Options            |             Danger Zone              |
 | :----------------------------------: | :----------------------------------: |
