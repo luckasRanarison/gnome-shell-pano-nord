@@ -1,19 +1,19 @@
 .pano-window {
-  background-color: rgba(36, 36, 36, 0.9);
-  height: 380px;
-  border-top: 1px solid rgba(69, 69, 69, 1);
+  background-color: rgba(46, 52, 64, 0.781);
+  height: 768px;
 }
 
 .pano-window.incognito {
   background-color: rgba(17, 0, 29, 0.9);
-  background-image: url('./images/incognito-mode.svg');
+  background-image: url("./images/incognito-mode.svg");
   background-size: 45px;
   background-position: 10px 10px;
 }
 
 .pano-window .search-entry-container {
   padding: 14px;
-  padding-bottom: 5px;
+  padding-top: 100px;
+  padding-bottom: 275px;
 }
 
 .pano-window .search-entry-icon {
@@ -27,7 +27,7 @@
   margin-bottom: 6px;
   margin-left: 6px;
   margin-right: 6px;
-  height: 300px;
+  height: 175px;
   width: 300px;
   border: 4px solid transparent;
 }
@@ -35,16 +35,17 @@
 .pano-item:visible:first-child {
   margin-left: 14px;
 }
+
 .pano-item:visible:last-child {
   margin-right: 14px;
 }
 
 .pano-item:selected {
-  border: 4px solid #3584e4 !important;
+  border: 4px solid #8fbcbb !important;
 }
 
 .pano-item:hover {
-  border: 4px solid rgba(53, 132, 228, 0.7);
+  border: 4px solid rgba(143, 188, 187, 0.808);
 }
 
 .pano-item-header {
@@ -53,31 +54,27 @@
 }
 
 .pano-item-header-link {
-  background-color: #209fb5;
+  background-color: #81a1c1;
 }
 
 .pano-item-header-text {
-  background-color: #0a3d64;
-}
-
-.pano-item-header-emoji {
-  background-color: #d18f7b;
+  background-color: #81a1c1;
 }
 
 .pano-item-header-file {
-  background-color: #4c4f69;
+  background-color: #4c566a;
 }
 
 .pano-item-header-image {
-  background-color: #e64553;
+  background-color: #bf616a;
 }
 
 .pano-item-header-code {
-  background-color: #232634;
+  background-color: #2e3440;
 }
 
 .pano-item-header-color {
-  background-color: #8839ef;
+  background-color: #b48ead;
 }
 
 .pano-item-body {
@@ -86,14 +83,13 @@
 }
 
 .pano-item-body-code {
-  background-color: #303446;
-  color: white;
+  background-color: #313744;
+  color: #eceff4;
 }
 
 .pano-item-body-code-content {
   margin: 12px;
   font-size: 13px;
-  tab-size: 2;
   font-family: monospace;
 }
 
@@ -108,30 +104,13 @@
 }
 
 .pano-item-body-text {
-  background-color: #e5c890;
+  background-color: #eceff4;
 }
 
 .pano-item-body-text-content {
   margin: 12px;
-  font-size: 14px;
-  font-family: sans-serif;
-  color: #000;
-  tab-size: 2;
-}
-
-.pano-item-body-emoji {
-  background-color: #edd6d0;
-}
-
-.pano-item-body-emoji .emoji-container {
-  border-radius: 0px 0px 6px 6px;
-}
-
-.pano-item-body-emoji-content {
-  font-size: 64px;
-  font-family: sans-serif;
-  tab-size: 2;
-  text-shadow: 0 0 5px #000;
+  font-size: 13px;
+  color: #313744;
 }
 
 .pano-item-body-color {
@@ -145,8 +124,8 @@
 .pano-item-body-color .color-label {
   font-size: 16px;
   border-radius: 999px;
-  background-color: black;
-  color: white;
+  background-color: #313744;
+  color: #eceff4;
   padding: 10px;
 }
 
@@ -160,7 +139,7 @@
 
 .pano-item-body-file-name-label {
   font-size: 13px;
-  color: #000;
+  color: #313744;
   font-family: sans;
 }
 
@@ -174,7 +153,7 @@
 
 .pano-item-title {
   font-size: 24px;
-  color: white;
+  color: #eceff4;
 }
 
 .pano-icon-container {
@@ -189,7 +168,7 @@
 
 .pano-item-body-file .file-icon {
   padding: 0 4px;
-  color: #000;
+  color: #313744;
 }
 
 .copied-files-container {
@@ -228,13 +207,13 @@
 
 .pano-item-body-image-meta-title {
   font-size: 12px;
-  color: white;
+  color: #eceff4;
 }
 
 .pano-item-body-image-meta-value {
   font-size: 13px;
   font-weight: bold;
-  color: white;
+  color: #eceff4;
 }
 
 .pano-item-body-link-meta-container {
@@ -244,23 +223,23 @@
 .pano-item-body-link .link-title-label {
   font-size: 13px;
   font-weight: bold;
-  color: white;
+  color: #eceff4;
 }
 
 .pano-item-body-link .link-description-label {
   font-size: 12px;
-  color: white;
+  color: #eceff4;
 }
 
 .pano-item-body-link .link-label {
   margin-top: 5px;
   font-size: 10px;
-  color: white;
+  color: #eceff4;
 }
 
 .pano-item-remove-button {
   background-color: rgba(0, 0, 0, 0.3);
-  color: white;
+  color: #eceff4;
   border-radius: 99px;
   padding: 5px;
   margin: 5px;
@@ -268,7 +247,7 @@
 
 .pano-item-remove-button:hover,
 .pano-item-remove-button:active {
-  background-color: #d20f39;
+  background-color: #bf616a;
 }
 
 .indicator-icon {
